@@ -10,7 +10,6 @@ const AddTodo = lazy(() => import('./components/AddTodo'))
 function App() {
   const [todos, setTodos] = useState([]);
 
-  console.log("app")
   useEffect(() => {
     // Fetch tasks from mock API
     const fetchTasks = async () => {
